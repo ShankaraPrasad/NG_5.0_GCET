@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student management System</title>
+    <link rel="stylesheet" href="sm.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student management System</h1>
+        <input type="text" id="name" placeholder="Enter your name">
+        <input type="text" id="marks" placeholder="Enter your marks">
+        <button onclick="addstudent()">Add student</button>
+        <h2>Student List</h2>
+        <table border="2" align="center">
+            <thead>
+                <th>Name</th>
+                <th>Marks</th>
+                <th>status</th>
+            </thead>
+            <tbody id="studentTable"></tbody>
+        </table>
+        <h3>Table marks:<span id="total">0</span></h3>
+        <h3>Average marks:<span id="average">0</span></h3>
+
+
+    </div>
+    <script src="p1.js"></script>
+</body>
+</html>
+
+
+
